@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/onBoardFragment">
+
+    <fragment
+        android:id="@+id/add_category_fragment_dialog"
+        android:name="com.example.encard02nurbek.ui.fragment.addCategory.AddCategoryFragmentDialog"
+        android:label="fragment_add_category_dialog"
+        tools:layout="@layout/fragment_add_category_dialog" />
+    <fragment
+        android:id="@+id/addWordsFragment"
+        android:name="com.example.encard02nurbek.ui.fragment.addWord.AddWordsFragment"
+        android:label="fragment_add_words"
+        tools:layout="@layout/fragment_add_words" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.encard02nurbek.ui.fragment.categoryFragment.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/fragment_words"
+        android:name="com.example.encard02nurbek.ui.fragment.wordsFragment.FragmentWords"
+        android:label="fragment_words"
+        tools:layout="@layout/fragment_words" />
+    <fragment
+        android:id="@+id/onBoardFragment"
+        android:name="com.example.encard02nurbek.ui.fragment.onBoard.OnBoardFragment"
+        android:label="fragment_on_board"
+        tools:layout="@layout/fragment_on_board" />
+</navigation>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.addWord.AddWordsFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Новое слово"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#505DA6"
+            />
+    </androidx.cardview.widget.CardView>
+    <EditText
+
+        android:imeOptions="actionDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Название категории"
+        android:id="@+id/etCategory"
+        android:inputType="text"
+        />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Создать"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="40dp"
+        android:textColor="@color/white"
+        android:id="@+id/btnSaveCategory"
+        android:background="@drawable/circle_btn"
+        />
+
+</LinearLayout>
